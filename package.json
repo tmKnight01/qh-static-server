@@ -1,6 +1,6 @@
 {
   "name": "qh-static-server",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "a static source server in anywhere",
   "main": "index.js",
   "scripts": {
@@ -17,5 +17,11 @@
     "minimist": "^1.2.8",
     "serve-index": "^1.9.1",
     "serve-static": "^1.15.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git//github.com/tmKnight01/qh-static-server.git"
+  },
+  "homepage": "https://github.com/tmKnight01/qh-static-server",
+  "files": ["bin", "keys"]
 }
