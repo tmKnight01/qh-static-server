@@ -1,0 +1,21 @@
+{
+  "name": "qh-static-server",
+  "version": "1.0.0",
+  "description": "a static source server in anywhere",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "qh-static-server": "./bin/index.js"
+  },
+  "author": "xinqinghe",
+  "license": "ISC",
+  "dependencies": {
+    "connect": "^3.7.0",
+    "debug": "^4.3.4",
+    "minimist": "^1.2.8",
+    "serve-index": "^1.9.1",
+    "serve-static": "^1.15.0"
+  }
+}
