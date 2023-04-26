@@ -26,7 +26,7 @@ const argvs = require("minimist")(process.argv.slice(2), {
     dir: process.cwd(),
   },
 });
-// console.log("Usage:");
+
 
 if (argvs.help) {
   log("Usage:");
